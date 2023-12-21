@@ -1,2 +1,5 @@
 build
 bin
+isodir
+*.iso
+bkp

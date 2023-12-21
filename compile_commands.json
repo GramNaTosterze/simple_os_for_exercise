@@ -1,0 +1,97 @@
+[
+  {
+    "arguments": [
+      "/home/krzysiu/opt/cross/bin/i386-elf-gcc",
+      "-c",
+      "-std=gnu99",
+      "-ffreestanding",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-I./src",
+      "-o",
+      "build/./src/kernel/kernel.c.o",
+      "src/kernel/kernel.c"
+    ],
+    "directory": "/home/krzysiu/simple_os_for_exercise",
+    "file": "/home/krzysiu/simple_os_for_exercise/src/kernel/kernel.c",
+    "output": "/home/krzysiu/simple_os_for_exercise/build/src/kernel/kernel.c.o"
+  },
+  {
+    "arguments": [
+      "/home/krzysiu/opt/cross/bin/i386-elf-gcc",
+      "-c",
+      "-std=gnu99",
+      "-ffreestanding",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-I./src",
+      "-o",
+      "build/./src/IDT/idt.c.o",
+      "src/IDT/idt.c"
+    ],
+    "directory": "/home/krzysiu/simple_os_for_exercise",
+    "file": "/home/krzysiu/simple_os_for_exercise/src/IDT/idt.c",
+    "output": "/home/krzysiu/simple_os_for_exercise/build/src/IDT/idt.c.o"
+  },
+  {
+    "arguments": [
+      "/home/krzysiu/opt/cross/bin/i386-elf-gcc",
+      "-c",
+      "-std=gnu99",
+      "-ffreestanding",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-I./src",
+      "-o",
+      "build/./src/GDT/gdt.c.o",
+      "src/GDT/gdt.c"
+    ],
+    "directory": "/home/krzysiu/simple_os_for_exercise",
+    "file": "/home/krzysiu/simple_os_for_exercise/src/GDT/gdt.c",
+    "output": "/home/krzysiu/simple_os_for_exercise/build/src/GDT/gdt.c.o"
+  },
+  {
+    "arguments": [
+      "/home/krzysiu/opt/cross/bin/i386-elf-gcc",
+      "-c",
+      "-std=gnu99",
+      "-ffreestanding",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-I./src",
+      "-o",
+      "build/./src/term/term.c.o",
+      "src/term/term.c"
+    ],
+    "directory": "/home/krzysiu/simple_os_for_exercise",
+    "file": "/home/krzysiu/simple_os_for_exercise/src/term/term.c",
+    "output": "/home/krzysiu/simple_os_for_exercise/build/src/term/term.c.o"
+  },
+  {
+    "arguments": [
+      "/home/krzysiu/opt/cross/bin/i386-elf-gcc",
+      "-c",
+      "-std=gnu99",
+      "-ffreestanding",
+      "-g",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-I./src",
+      "-o",
+      "build/./src/vga/vga_text_mode.c.o",
+      "src/vga/vga_text_mode.c"
+    ],
+    "directory": "/home/krzysiu/simple_os_for_exercise",
+    "file": "/home/krzysiu/simple_os_for_exercise/src/vga/vga_text_mode.c",
+    "output": "/home/krzysiu/simple_os_for_exercise/build/src/vga/vga_text_mode.c.o"
+  }
+]
